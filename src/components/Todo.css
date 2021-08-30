@@ -70,3 +70,15 @@ input[type=checkbox]
         font-size: 15px;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .todo__element {
+        width: 45%;
+        margin-left: -320px;
+        padding: 16px;
+    }
+
+    .todo__desc {
+        font-size: 15px;
+    }
+}

@@ -27,3 +27,10 @@
         width: 550px;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .todo__box {
+        height: 690px;
+        width: 360px;
+    }
+}

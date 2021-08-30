@@ -32,5 +32,6 @@
     .todo__box {
         height: 690px;
         width: 360px;
+        box-sizing: border-box;
     }
 }

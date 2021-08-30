@@ -64,6 +64,7 @@ input[type=checkbox]
         width: 75%;
         margin-left: -140px;
         padding: 16px;
+        box-sizing: border-box;
     }
 
     .todo__desc {
@@ -73,11 +74,16 @@ input[type=checkbox]
 
 @media screen and (max-width: 400px) {
     .todo__element {
-        width: 45%;
-        margin-left: -320px;
-        padding: 16px;
+        width: 90%;
+        margin-left: -3px;
+        padding: 12px;
+        display: flex;
+        overflow: auto;
     }
 
+    .todo__left {
+        display: flex;
+    }
     .todo__desc {
         font-size: 15px;
     }

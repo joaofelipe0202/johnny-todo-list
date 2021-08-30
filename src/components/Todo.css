@@ -1,0 +1,55 @@
+.todo__container {
+    list-style: none;
+}
+
+.todo__checkbox {
+    padding: 20px;
+}
+
+input[type=checkbox]
+{
+  transform: scale(1.6);
+}
+
+.todo__element {
+    margin: 15px;
+    margin-bottom: 0;
+    padding: 18px;
+    border: 1px solid rgba(224, 209, 219, 1);
+    border-radius:  10px;
+    display: flex;
+    justify-content: space-between;
+    transition: border 0.3s ease-in-out;
+}
+
+.todo__element:hover {
+    border: 3px solid rgba(239, 112, 121, 0.4);
+}
+
+.todo__desc {
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+.todo__complete {
+    background-color: rgba(239, 112, 121, 0.4);
+    text-decoration: line-through;
+}
+
+.todo__complete:hover {
+    border: 3px solid silver;
+}
+
+.todo__right:hover {
+    animation: delete 1s linear infinite;
+}
+
+@keyframes delete {
+    0%, 100% {
+        transform: translateY(2px);
+    }
+
+    50% {
+        transform: translateY(-2px);
+    }
+}

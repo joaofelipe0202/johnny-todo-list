@@ -1,0 +1,38 @@
+.todo__list {
+    margin-top: 15px;
+    margin-left: 35px;
+    height: 70%;
+    width: 650px;
+    overflow: auto;
+}
+
+.filter__section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter__todos {
+    display: flex;
+    margin-top: 55px;
+}
+
+.filter__buttons {
+    margin: 0 20px 0 20px;
+    padding: 5px 15px 5px 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(122, 112, 121, 1);
+    color: rgba(254, 248, 255, 1);
+    cursor: pointer;
+}
+
+.filter__buttons:hover {
+    opacity: 0.6;
+}
+
+.active__filter {
+    opacity: 0.6;
+    transform: scale(1.2);
+    transition: transform 0.5s;
+}

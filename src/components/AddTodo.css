@@ -1,0 +1,48 @@
+.todo__form {
+    position: relative;
+    top: 30px;
+    left: 35px;
+    display: flex;
+}
+
+.todo__input {
+    padding: 15px 200px 10px 15px;
+    border-radius: 7px;
+    border: 1px solid rgba(224, 209, 219, 1);
+    
+}
+
+input:focus {
+    outline:none;
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 20px;
+}
+
+.todo__btn {
+    margin-left: 20px;
+    width: 120px;
+    font-size: 17px;
+    background-color: rgba(122, 112, 121, 1);
+    color: rgba(254, 248, 255, 1);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.todo__btn:hover {
+    background-color: rgba(122, 112, 121, 0.6);
+    animation: subBtn 1s linear infinite;
+}
+
+@keyframes subBtn {
+    0%, 100% {
+        transform: translateY(-2px);
+    }
+
+    50% {
+        transform: translateY(5px);
+    }
+}

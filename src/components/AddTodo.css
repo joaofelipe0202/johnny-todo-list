@@ -46,3 +46,19 @@ input::-webkit-input-placeholder {
         transform: translateY(5px);
     }
 }
+
+@media screen and (max-width: 700px) {
+    .todo__form {
+        justify-content: center;
+        left: 12px;
+    }
+    
+    .todo__input {
+        padding: 5px 70px 8px 5px;
+    }
+
+    input,
+    input::-webkit-input-placeholder {
+        font-size: 15px;
+    }
+}

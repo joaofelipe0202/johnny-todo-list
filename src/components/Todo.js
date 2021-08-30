@@ -25,7 +25,7 @@ export default function Todo({ id, desc, completed }) {
             className={'todo__container'}
             initial={{ x: "20px", transition: { duration: 0.5 }, overflowX: 'hidden'}}
             animate={{ x: 0, transition: { type: "spring", duration: 2 } }}
-            exit={{ x: '-60vw', scale: [1,0], transition: { duration: 0.5 }}}
+            exit={{ x: '-60vw', scale: [1,0], transition: { duration: 0.7 }}}
             style={{maxWidth: '630px'}}
         >
             <div className={`todo__element ${completed && 'todo__complete'}`}>

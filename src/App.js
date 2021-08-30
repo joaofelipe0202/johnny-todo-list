@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <div className='todo__box'>
         <Typical 
-          steps={["Johnny's Todo List", 1000]}
+          steps={["Johnny's To do List", 1000]}
           wrapper="h1"
         />
         <AddTodo />

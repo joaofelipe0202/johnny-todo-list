@@ -74,16 +74,11 @@ input[type=checkbox]
 
 @media screen and (max-width: 400px) {
     .todo__element {
-        width: 90%;
         margin-left: -3px;
         padding: 12px;
-        display: flex;
         overflow: auto;
     }
 
-    .todo__left {
-        display: flex;
-    }
     .todo__desc {
         font-size: 15px;
     }

@@ -1,6 +1,8 @@
-#Todo List
+# Todo List
 
-### Simple Todo App using React, Redux, Redux-Persist, Typical, Frame-Motion, Material UI. User can add tasks, remove them, filter by done, not done and all the tasks.
+Simple Todo App using React, Redux, Redux-Persist, Typical, Frame-Motion, Material UI. User can add tasks, remove them, filter by done, not done and all the tasks.
+
+Deployed app: https://johnny-todo-list.netlify.app/
 
 # Getting Started with Create React App
 

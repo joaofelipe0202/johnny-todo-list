@@ -25,6 +25,7 @@
     background-color: rgba(122, 112, 121, 1);
     color: rgba(254, 248, 255, 1);
     cursor: pointer;
+    font-size: 13px;
 }
 
 .filter__buttons:hover {

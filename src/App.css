@@ -20,3 +20,10 @@
     border-bottom: 3px solid rgba(122, 112, 121, 1);
     text-align: center;
 }
+
+@media screen and (max-width: 700px) {
+    .todo__box {
+        height: 550px;
+        width: 550px;
+    }
+}

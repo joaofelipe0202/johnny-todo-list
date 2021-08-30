@@ -54,7 +54,7 @@ input::-webkit-input-placeholder {
     }
     
     .todo__input {
-        padding: 5px 70px 8px 5px;
+        padding: 8px 70px 8px 5px;
     }
 
     input,

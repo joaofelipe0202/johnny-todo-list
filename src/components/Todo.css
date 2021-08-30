@@ -61,11 +61,9 @@ input[type=checkbox]
     }
 
     .todo__element {
-        margin: 15px;
-        margin-bottom: 0;
-        padding: 18px;
-        width: 85%;
-        margin-left: -10px;
+        width: 75%;
+        margin-left: -140px;
+        padding: 16px;
     }
 
     .todo__desc {

@@ -44,7 +44,7 @@ export default function TodoList() {
                             <Todo 
                                 key={todo.id}
                                 id={todo.id}
-                                desc={todo.desc}
+                                description={todo.description}
                                 completed={todo.completed}
                             />
                         ))

@@ -5,7 +5,7 @@ import { useDispatch } from 'react-redux';
 import { checkTodo, deleteTodo } from '../store/todoSlice';
 import { motion } from 'framer-motion';
 
-export default function Todo({ id, desc, completed }) {
+export default function Todo({ id, description, completed }) {
     const dispatch = useDispatch();
 
     const markAsComplete = () => {
@@ -37,7 +37,7 @@ export default function Todo({ id, desc, completed }) {
                         onChange={markAsComplete}
                     />
                     <span className='todo__desc'>
-                        {desc}
+                        {description}
                     </span>
                 </div>
                 <div className='todo__right'>

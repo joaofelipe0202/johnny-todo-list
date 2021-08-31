@@ -12,7 +12,7 @@ export const todoSlice = createSlice({
         submitTodo: (state, action) => {
             const newTodo = {
                 id: new Date(),
-                desc: action.payload.desc,
+                desc: action.payload.description,
                 completed: false
             }
             state.todosList.push(newTodo);
